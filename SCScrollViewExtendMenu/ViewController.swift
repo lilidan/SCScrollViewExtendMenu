@@ -8,18 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
+    @IBOutlet weak var scrollView: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        scrollView.addExtendMenuWithElements([generateElement(),generateElement(),generateElement(),generateElement(),generateElement()])
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func generateElement()->ExtendMenuElement{
+        return ExtendMenuElement(image:UIImage(),hightlighted:UIImage(),text:"btn")
     }
-
-
+    
+    
 }
 

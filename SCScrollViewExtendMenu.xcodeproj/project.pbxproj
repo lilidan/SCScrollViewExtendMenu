@@ -13,6 +13,8 @@
 		D657F6981BA6BE140072C9C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D657F6971BA6BE140072C9C2 /* Images.xcassets */; };
 		D657F69B1BA6BE140072C9C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D657F6991BA6BE140072C9C2 /* LaunchScreen.xib */; };
 		D657F6A71BA6BE140072C9C2 /* SCScrollViewExtendMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657F6A61BA6BE140072C9C2 /* SCScrollViewExtendMenuTests.swift */; };
+		D657F6B41BA6BE970072C9C2 /* ExtendMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657F6B31BA6BE970072C9C2 /* ExtendMenuView.swift */; };
+		D657F6B61BA6BEEB0072C9C2 /* UIScrollView+extendMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657F6B51BA6BEEB0072C9C2 /* UIScrollView+extendMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D657F6A01BA6BE140072C9C2 /* SCScrollViewExtendMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCScrollViewExtendMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D657F6A51BA6BE140072C9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D657F6A61BA6BE140072C9C2 /* SCScrollViewExtendMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCScrollViewExtendMenuTests.swift; sourceTree = "<group>"; };
+		D657F6B31BA6BE970072C9C2 /* ExtendMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendMenuView.swift; sourceTree = "<group>"; };
+		D657F6B51BA6BEEB0072C9C2 /* UIScrollView+extendMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+extendMenu.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 				D657F6901BA6BE140072C9C2 /* AppDelegate.swift */,
 				D657F6921BA6BE140072C9C2 /* ViewController.swift */,
 				D657F6941BA6BE140072C9C2 /* Main.storyboard */,
+				D657F6B21BA6BE970072C9C2 /* SCScrollViewExtendMenu */,
 				D657F6971BA6BE140072C9C2 /* Images.xcassets */,
 				D657F6991BA6BE140072C9C2 /* LaunchScreen.xib */,
 				D657F68E1BA6BE140072C9C2 /* Supporting Files */,
@@ -110,6 +115,15 @@
 				D657F6A51BA6BE140072C9C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D657F6B21BA6BE970072C9C2 /* SCScrollViewExtendMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D657F6B31BA6BE970072C9C2 /* ExtendMenuView.swift */,
+				D657F6B51BA6BEEB0072C9C2 /* UIScrollView+extendMenu.swift */,
+			);
+			path = SCScrollViewExtendMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D657F6B61BA6BEEB0072C9C2 /* UIScrollView+extendMenu.swift in Sources */,
 				D657F6931BA6BE140072C9C2 /* ViewController.swift in Sources */,
 				D657F6911BA6BE140072C9C2 /* AppDelegate.swift in Sources */,
+				D657F6B41BA6BE970072C9C2 /* ExtendMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
